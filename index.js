@@ -30,13 +30,13 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
    return[kittenString,...kittens]
  }
  
- function removeLastKitten(kittens){
-  return kittenString.slice(0, kittens.length - 1);
+ function removeLastKitten(kittenString){
+  return kittens.slice(0, kittens.length - 1);
    
  }
  
- function removeFirstKitten(kittens){
-   return kittenString.slice(0);
+ function removeFirstKitten(kittenString){
+   return kittens.slice(0);
  }
  
  
